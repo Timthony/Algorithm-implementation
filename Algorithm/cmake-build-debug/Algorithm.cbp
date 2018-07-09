@@ -82,7 +82,13 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="/Users/arcstone_mems_108/Desktop/keyan/githubproject/Algorithm-implementation/Algorithm/Search.cpp">
+			<Option target="Algorithm"/>
+		</Unit>
 		<Unit filename="/Users/arcstone_mems_108/Desktop/keyan/githubproject/Algorithm-implementation/Algorithm/main.cpp">
+			<Option target="Algorithm"/>
+		</Unit>
+		<Unit filename="/Users/arcstone_mems_108/Desktop/keyan/githubproject/Algorithm-implementation/Algorithm/sort.cpp">
 			<Option target="Algorithm"/>
 		</Unit>
 		<Unit filename="/Users/arcstone_mems_108/Desktop/keyan/githubproject/Algorithm-implementation/Algorithm/CMakeLists.txt">

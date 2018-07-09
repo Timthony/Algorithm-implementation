@@ -1,5 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/Algorithm.dir/main.cpp.o"
+  "CMakeFiles/Algorithm.dir/sort.cpp.o"
+  "CMakeFiles/Algorithm.dir/Search.cpp.o"
   "Algorithm.pdb"
   "Algorithm"
 )

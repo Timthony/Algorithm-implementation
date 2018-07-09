@@ -3,3 +3,5 @@
 
 CMakeFiles/Algorithm.dir/main.cpp.o: ../main.cpp
 
+CMakeFiles/Algorithm.dir/sort.cpp.o: ../sort.cpp
+

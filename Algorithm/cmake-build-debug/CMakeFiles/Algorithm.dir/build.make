@@ -81,17 +81,69 @@ CMakeFiles/Algorithm.dir/main.cpp.o.provides: CMakeFiles/Algorithm.dir/main.cpp.
 CMakeFiles/Algorithm.dir/main.cpp.o.provides.build: CMakeFiles/Algorithm.dir/main.cpp.o
 
 
+CMakeFiles/Algorithm.dir/sort.cpp.o: CMakeFiles/Algorithm.dir/flags.make
+CMakeFiles/Algorithm.dir/sort.cpp.o: ../sort.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/arcstone_mems_108/Desktop/keyan/githubproject/Algorithm-implementation/Algorithm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/Algorithm.dir/sort.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Algorithm.dir/sort.cpp.o -c /Users/arcstone_mems_108/Desktop/keyan/githubproject/Algorithm-implementation/Algorithm/sort.cpp
+
+CMakeFiles/Algorithm.dir/sort.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Algorithm.dir/sort.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/arcstone_mems_108/Desktop/keyan/githubproject/Algorithm-implementation/Algorithm/sort.cpp > CMakeFiles/Algorithm.dir/sort.cpp.i
+
+CMakeFiles/Algorithm.dir/sort.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Algorithm.dir/sort.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/arcstone_mems_108/Desktop/keyan/githubproject/Algorithm-implementation/Algorithm/sort.cpp -o CMakeFiles/Algorithm.dir/sort.cpp.s
+
+CMakeFiles/Algorithm.dir/sort.cpp.o.requires:
+
+.PHONY : CMakeFiles/Algorithm.dir/sort.cpp.o.requires
+
+CMakeFiles/Algorithm.dir/sort.cpp.o.provides: CMakeFiles/Algorithm.dir/sort.cpp.o.requires
+	$(MAKE) -f CMakeFiles/Algorithm.dir/build.make CMakeFiles/Algorithm.dir/sort.cpp.o.provides.build
+.PHONY : CMakeFiles/Algorithm.dir/sort.cpp.o.provides
+
+CMakeFiles/Algorithm.dir/sort.cpp.o.provides.build: CMakeFiles/Algorithm.dir/sort.cpp.o
+
+
+CMakeFiles/Algorithm.dir/Search.cpp.o: CMakeFiles/Algorithm.dir/flags.make
+CMakeFiles/Algorithm.dir/Search.cpp.o: ../Search.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/arcstone_mems_108/Desktop/keyan/githubproject/Algorithm-implementation/Algorithm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/Algorithm.dir/Search.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Algorithm.dir/Search.cpp.o -c /Users/arcstone_mems_108/Desktop/keyan/githubproject/Algorithm-implementation/Algorithm/Search.cpp
+
+CMakeFiles/Algorithm.dir/Search.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Algorithm.dir/Search.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/arcstone_mems_108/Desktop/keyan/githubproject/Algorithm-implementation/Algorithm/Search.cpp > CMakeFiles/Algorithm.dir/Search.cpp.i
+
+CMakeFiles/Algorithm.dir/Search.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Algorithm.dir/Search.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/arcstone_mems_108/Desktop/keyan/githubproject/Algorithm-implementation/Algorithm/Search.cpp -o CMakeFiles/Algorithm.dir/Search.cpp.s
+
+CMakeFiles/Algorithm.dir/Search.cpp.o.requires:
+
+.PHONY : CMakeFiles/Algorithm.dir/Search.cpp.o.requires
+
+CMakeFiles/Algorithm.dir/Search.cpp.o.provides: CMakeFiles/Algorithm.dir/Search.cpp.o.requires
+	$(MAKE) -f CMakeFiles/Algorithm.dir/build.make CMakeFiles/Algorithm.dir/Search.cpp.o.provides.build
+.PHONY : CMakeFiles/Algorithm.dir/Search.cpp.o.provides
+
+CMakeFiles/Algorithm.dir/Search.cpp.o.provides.build: CMakeFiles/Algorithm.dir/Search.cpp.o
+
+
 # Object files for target Algorithm
 Algorithm_OBJECTS = \
-"CMakeFiles/Algorithm.dir/main.cpp.o"
+"CMakeFiles/Algorithm.dir/main.cpp.o" \
+"CMakeFiles/Algorithm.dir/sort.cpp.o" \
+"CMakeFiles/Algorithm.dir/Search.cpp.o"
 
 # External object files for target Algorithm
 Algorithm_EXTERNAL_OBJECTS =
 
 Algorithm: CMakeFiles/Algorithm.dir/main.cpp.o
+Algorithm: CMakeFiles/Algorithm.dir/sort.cpp.o
+Algorithm: CMakeFiles/Algorithm.dir/Search.cpp.o
 Algorithm: CMakeFiles/Algorithm.dir/build.make
 Algorithm: CMakeFiles/Algorithm.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/arcstone_mems_108/Desktop/keyan/githubproject/Algorithm-implementation/Algorithm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable Algorithm"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/arcstone_mems_108/Desktop/keyan/githubproject/Algorithm-implementation/Algorithm/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable Algorithm"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Algorithm.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -100,6 +152,8 @@ CMakeFiles/Algorithm.dir/build: Algorithm
 .PHONY : CMakeFiles/Algorithm.dir/build
 
 CMakeFiles/Algorithm.dir/requires: CMakeFiles/Algorithm.dir/main.cpp.o.requires
+CMakeFiles/Algorithm.dir/requires: CMakeFiles/Algorithm.dir/sort.cpp.o.requires
+CMakeFiles/Algorithm.dir/requires: CMakeFiles/Algorithm.dir/Search.cpp.o.requires
 
 .PHONY : CMakeFiles/Algorithm.dir/requires
 
